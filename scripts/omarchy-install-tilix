@@ -10,7 +10,7 @@
 set -euo pipefail
 
 PREFIX="${TILIX_PREFIX:-$HOME/.local}"
-REPO="${TILIX_REPO:-cytracon/tilix}"
+REPO="${TILIX_REPO:-cytracon/omarchy-cytracon-tilix}"
 RAW_UPDATER="https://raw.githubusercontent.com/${REPO}/master/scripts/tilix-cytracon.sh"
 WEB="https://github.com/${REPO}"
 
@@ -122,7 +122,7 @@ EOF
     omarchy-notification-send -g  "Tilix is now the default terminal" "Cytracon Tilix · Super+Return" || true
   fi
   PLUGIN_ID="io.github.cytracon.tilix"
-  PLUGIN_URL="https://github.com/cytracon/omarchy-tilix.git"
+  PLUGIN_URL="https://github.com/cytracon/omarchy-cytracon-bar-tilix.git"
   PLUGIN_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/omarchy/plugins/${PLUGIN_ID}"
   if command -v omarchy >/dev/null 2>&1; then
     if [[ -d "$PLUGIN_DIR" ]]; then

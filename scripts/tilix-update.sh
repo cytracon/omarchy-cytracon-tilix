@@ -19,7 +19,7 @@
 #   oder:     cp tilix-cytracon.sh /tmp/ && bash /tmp/tilix-cytracon.sh
 #
 # Ohne Clone:
-#   curl -fsSL https://raw.githubusercontent.com/cytracon/tilix/master/scripts/tilix-cytracon.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/cytracon/omarchy-cytracon-tilix/master/scripts/tilix-cytracon.sh | bash
 #
 # Offline (Package in Downloads/Drive/tmp):
 #   bash tilix-cytracon.sh              # findet tilix-cytracon-*.tar.gz automatisch
@@ -34,7 +34,7 @@
 # =============================================================================
 set -euo pipefail
 
-REPO="${TILIX_REPO:-cytracon/tilix}"
+REPO="${TILIX_REPO:-cytracon/omarchy-cytracon-tilix}"
 PREFIX="${TILIX_PREFIX:-$HOME/.local}"
 PKG_DIR="${PKG_DIR:-/tmp}"
 STAGE_NAME="tilix-cytracon-deploy"
@@ -534,7 +534,7 @@ print(json.dumps({
 
 ### Install / Update (jeder PC)
 \`\`\`bash
-curl -fsSL https://raw.githubusercontent.com/cytracon/tilix/master/scripts/tilix-cytracon.sh | bash
+curl -fsSL https://raw.githubusercontent.com/cytracon/omarchy-cytracon-tilix/master/scripts/tilix-cytracon.sh | bash
 # danach: tilix-update
 \`\`\`
 ''',

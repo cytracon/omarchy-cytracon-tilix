@@ -1,6 +1,6 @@
 # Cytracon Tilix Audit — 2026-07-14
 
-**Fork:** https://github.com/cytracon/tilix  
+**Fork:** https://github.com/cytracon/omarchy-cytracon-tilix  
 **Upstream:** https://github.com/gnunn1/tilix  
 **Local clone:** (local path omitted — not published)  
 **Installed system version:** Tilix 1.9.6 / VTE 0.84 / GTK 3.24.52  
@@ -234,7 +234,7 @@ Prioritized for AI-assisted sysadmin, multi-SSH Magento/VPS work, Tilix quake + 
 ### P3 — Strategic platform
 
 13. **Evaluate merge of #2282 (GID bindings)** — prerequisite for GTK4 / future GNOME.
-14. **CI on Ubuntu 24.04 + LDC** matching our workstation; publish `.deb` from `cytracon/tilix`.
+14. **CI on Ubuntu 24.04 + LDC** matching our workstation; publish `.deb` from `cytracon/omarchy-cytracon-tilix`.
 15. **Optional: sidecar in Rust/Zig** only if D maintainer bandwidth fails — full rewrite is high cost; not recommended first.
 
 ### Explicit non-goals (for now)
@@ -307,7 +307,7 @@ Recommendation: **stay on Tilix fork for 6–12 months** with hardening; re-eval
 - Static audit of D sources + nautilus plugin + dbus service + upstream issue graph.
 - Did **not** rebuild Tilix in this session (no full compile cycle).
 - Did **not** reproduce OSC 7 crash live against installed 1.9.6 (recommended next step after patch).
-- GitHub fork created as `cytracon/tilix` from `gnunn1/tilix` (full history).
+- GitHub fork created as `cytracon/omarchy-cytracon-tilix` from `gnunn1/tilix` (full history).
 
 ---
 

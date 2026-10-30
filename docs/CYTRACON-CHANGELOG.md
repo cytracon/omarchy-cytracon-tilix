@@ -62,7 +62,7 @@
 
 ### Packaging / identity
 - Version: `1.9.8-cytracon.1`
-- Fork: https://github.com/cytracon/tilix
+- Fork: https://github.com/cytracon/omarchy-cytracon-tilix
 
 ## 1.9.8-cytracon.4 — 2026-07-14
 

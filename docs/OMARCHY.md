@@ -15,5 +15,5 @@ User-local (`~/.local/bin/omarchy-install-tilix`). No sudo. Does **not** install
 Fallback:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cytracon/tilix/master/scripts/tilix-cytracon.sh | bash
+curl -fsSL https://raw.githubusercontent.com/cytracon/omarchy-cytracon-tilix/master/scripts/tilix-cytracon.sh | bash
 ```

@@ -25,7 +25,7 @@ Ziel: **einmal bauen/publishen**, alle Rechner (Desktop, Laptop, Multimedia) hol
 
 ## Sichtbarkeit
 
-Repo ist **öffentlich**: https://github.com/cytracon/tilix  
+Repo ist **öffentlich**: https://github.com/cytracon/omarchy-cytracon-tilix  
 → `tilix-update` braucht **keinen Token**.
 
 Optional Token nur gegen API-Rate-Limits (60/h unauth) bzw. zum **Publishen**:
@@ -93,5 +93,5 @@ Wenn Laptops offline / kein Token:
 ## Sicherheit
 
 - Token **nie** committen
-- Fine-grained PAT nur auf `cytracon/tilix` einschränken
+- Fine-grained PAT nur auf `cytracon/omarchy-cytracon-tilix` einschränken
 - Release-Assets sind Signatur-frei (internes Repo); bei Bedarf später cosign/minisign ergänzen

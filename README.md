@@ -3,7 +3,7 @@
 [![Upstream](https://img.shields.io/badge/upstream-gnunn1%2Ftilix-blue)](https://github.com/gnunn1/tilix)
 [![License](https://img.shields.io/badge/license-MPL--2.0-green)](LICENSE)
 
-**Repository:** https://github.com/cytracon/tilix  
+**Repository:** https://github.com/cytracon/omarchy-cytracon-tilix  
 **Upstream:** https://github.com/gnunn1/tilix (minimal maintenance; [maintainers wanted](https://github.com/gnunn1/tilix/issues/1700))  
 **Current version:** **1.9.8-cytracon.11**  
 **Install script:** [`scripts/tilix-cytracon.sh`](scripts/tilix-cytracon.sh) (install · update · package · publish · desktop)  
@@ -81,7 +81,7 @@ Nemo does **not** load Nautilus Python extensions. Use the Nemo installer below.
 
 | | |
 |--|--|
-| Repo | **public** — https://github.com/cytracon/tilix |
+| Repo | **public** — https://github.com/cytracon/omarchy-cytracon-tilix |
 | Root / sudo | **nie** — installiert nach `~/.local` |
 | Compiler auf Laptops | nicht nötig (vorgefertigtes `linux-x86_64` Package) |
 | Token | nicht nötig für Install/Update (public) |
@@ -107,7 +107,7 @@ tilix-cytracon desktop        # Desktop / Hyprland / xdg-terminal-exec (ohne Kil
 #### Ohne lokale Datei
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cytracon/tilix/master/scripts/tilix-cytracon.sh | bash
+curl -fsSL https://raw.githubusercontent.com/cytracon/omarchy-cytracon-tilix/master/scripts/tilix-cytracon.sh | bash
 ```
 
 #### Build-PC (Omarchy)
@@ -177,6 +177,6 @@ Dependencies: **gtkd** / **vte** ≥ 3.11.0. Runtime: GTK 3.18+, VTE 0.46+, dcon
 
 ## Support & license
 
-* Issues: https://github.com/cytracon/tilix/issues  
+* Issues: https://github.com/cytracon/omarchy-cytracon-tilix/issues  
 * Upstream issues / translations: https://github.com/gnunn1/tilix  
 * License: [MPL-2.0](LICENSE)
